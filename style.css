@@ -1,0 +1,36 @@
+.div{
+    margin: 0% 28%;
+    border: 1px solid #000000;
+    padding: 10px;
+}
+.imagen{
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+}
+.imagenUno{
+    background-color: black;
+}
+.imagenDos{
+    background-color: antiquewhite;
+}
+.imagenTres{
+    background-color: blue;
+}
+.titulo{
+    font-size: 30px;
+}
+.descripcion{
+    width: 400px;
+}
+.contenedor{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.boton{
+    margin: 0% 40%;
+    
+}
+ 
