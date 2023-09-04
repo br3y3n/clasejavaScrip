@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+.titulo{
+    color: aliceblue;
+    font-size: 50px;
+    padding: 0 35%;
+}
+.contenedor{
+    display: flex;
+    gap: 20px;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.horas{
+    padding: 10px;
+}
+.minutos{
+    padding: 10px;
+}
+.segundos{
+    padding: 10px;
+}
+.boton{
+    margin: 0 38%;
+    background-color: rgb(56, 152, 225);
+    color: aliceblue;
+    border-radius: 5px;
+}
