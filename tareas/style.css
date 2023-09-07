@@ -1,0 +1,32 @@
+*{
+    background-color: #060606;
+    padding: 6px;
+    border-radius: 7px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.tarea{
+    width: 300px;
+    text-align: justify;
+    background-color: rgb(112, 236, 236);
+    color: aliceblue;
+
+}
+.boton1, .boton2, .boton3, .boton4{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 50px;
+    color: aliceblue;
+}
+
+.barra{
+    height: 10px;
+    background-color:  rgb(112, 236, 236);
+    margin-top: 30px;
+    width: 100%;
+
+}

@@ -4,7 +4,7 @@ body{
 .titulo{
     color: aliceblue;
     font-size: 50px;
-    padding: 0 35%;
+    padding: 0 20%;
 }
 .contenedor{
     display: flex;
@@ -28,4 +28,5 @@ body{
     background-color: rgb(56, 152, 225);
     color: aliceblue;
     border-radius: 5px;
+    width: 100px;
 }
