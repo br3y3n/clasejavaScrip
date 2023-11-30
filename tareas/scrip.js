@@ -7,24 +7,22 @@ const contenido= document.querySelector(".contenido")
 let contador=0;
 let opcion=0
 function terminado(boton){
-        contador +=25
-        boton.innerHTML="Terminado"
-        boton.style.color="#1ef253"
-        contenido.style.background="#0f0feb"
-        contenido.style.width= contador+"%"
-        opcion++;
-        if(opcion==1){
-            boton.addEventListener("click", () =>{ 
-                contador -=50
+        opcion++
+        if(opcion<=1){      
+            contador +=25
+            boton.innerHTML="Terminado"
+            boton.style.color="#1ef253"
+            contenido.style.background="#0f0feb"
+            contenido.style.width= contador+"%"
+            console.log(opcion+"opcion 1 "+ contador+"contador")
+        }   
+        else if(opcion==2){
+            contador -=25
                 boton.innerHTML="Terminar"
                 boton.style.color="#f12727"
                 contenido.style.background="#0f0feb"
                 contenido.style.width= contador+"%"
-                opcion=0
-         });
-        }   
-        if(opcion==2){
+                console.log(opcion+"opcion 2 "+ contador+"contador")
             opcion =0
-        }
-
+        }       
 }
